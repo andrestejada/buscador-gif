@@ -1,0 +1,57 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  padding: 60px;
+}
+
+input{
+  width: 100%;
+  color: grey;
+  font-size: 1.2rem;
+  padding: 0.2em;
+  border: 1px solid black;
+  border-radius: 5px;
+  
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid green;
+  
+  
+}
+
+.card{
+  align-content: center;
+  border:1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right:10px ;
+  overflow: hidden;
+  width: max-content;
+  height: max-content;
+
+}
+
+.card p {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 2px grey;
+  text-transform: capitalize;
+  max-width: 15rem ;
+  margin: 0 auto;
+  padding: 0.2em;
+
+}
+
+.car img{
+  max-height: 10em;
+}
+
+.cardGrid{
+  display: flex;
+  flex-flow: row wrap;
+}
